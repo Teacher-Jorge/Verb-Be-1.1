@@ -15,7 +15,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
     overflow: hidden;
 }
 
@@ -28,7 +27,7 @@ h1  {
 }
 
 .container {
-    width: 400px;
+    max-width: 380px;
     font-family:"Kanit";
     font-size: 15px;
     display:inline;
