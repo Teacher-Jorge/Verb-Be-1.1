@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+
+    .kanit-light-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+}
+
+body {
+    font-family:"Kanit";
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1  {
+    margin-left: 60px;
+}
+
+.heading {
+    margin-left: 30px;
+}
+
+.container {
+    width: 400px;
+    font-family:"Kanit";
+    font-size: 15px;
+    display:inline;
+}
+
+.be {
+    color: rgb(191, 0, 255);
+}
+
+.answers {
+    font-size: 20px;
+    font-family: "Kanit";
+    font-size: 35px;
+    width: 60px;
+    height: 40px;
+    font-weight: 900;
+    text-align: center;
+    border-style: none;
+    background-color: rgb(234, 244, 253);
+}
+
+#check1 {
+    visibility: hidden;
+}
+#check2 {
+    visibility: hidden;
+}
+#check3 {
+    visibility: hidden;
+}
+
+.pic-container {
+    margin-right: 140px;
+}
+
+.caption {
+    font-family: "Kanit";
+    font-size: 30px;
+    margin-right: 130PX;
+}
